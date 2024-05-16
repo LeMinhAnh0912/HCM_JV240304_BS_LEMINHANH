@@ -1,0 +1,101 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+img,
+picture,
+svg,
+video {
+  display: block;
+  max-width: 100%;
+}
+input,
+select,
+textarea {
+  background-color: transparent;
+  outline: none;
+}
+button {
+  cursor: pointer;
+  background-color: transparent;
+  outline: none;
+  border: 0;
+}
+body {
+  min-height: 100vh;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1;
+}
+
+#list-job {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
+#btn {
+  margin-top: 30px;
+  gap: 40px;
+  display: flex;
+}
+#list-delete {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  gap: 10px;
+}
+#input {
+  width: 600px;
+}
+#job-delete {
+  gap: 10px;
+}
+#edit-icon {
+  display: flex;
+  justify-content: space-around;
+  margin-right: 500px;
+}
+#edit-job {
+  margin-left: 400px;
+}
+#edit-span {
+  margin-right: 300px;
+}
+#icon-pen {
+  color: rgb(133, 93, 18);
+}
+#icon-delete {
+  color: red;
+}
+.font-job {
+  margin-top: 20px;
+  font-size: 40px;
+}
+.btn-add {
+  border: 1px solid black;
+  width: 80px;
+  height: 30px;
+  background-color: aqua;
+}
+.edit-count {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  border: 1px solid black;
+  width: 725px;
+  height: 30px;
+  background-color: aqua;
+  margin-left: 316px;
+  padding-top: 5px;
+}
+.edit {
+  margin-right: 20px;
+}
